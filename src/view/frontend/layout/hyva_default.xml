@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <remove src="Metrion_MetrionMage::js/init.js"/>
+        <remove src="Metrion_MetrionMage::js/orders.js"/>
+        <remove src="Metrion_MetrionMage::js/destinations.js"/>
+        <script src="Hyva_MetrionMage::js/metrion.js"/>
+    </head>
+</page>

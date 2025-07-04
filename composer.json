@@ -1,0 +1,25 @@
+{
+    "name": "hyva-themes/magento2-metrion-mage",
+    "description": "Hyva compatibility module for metrion/metrion-mage",
+    "authors": [{
+        "name": "Dexor B.V.",
+        "homepage": "https://www.dexor.nl",
+        "email": "info@hyva.io"
+    }],
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*",
+        "metrion/metrion-mage": "*"
+    },
+    "license": [
+        "OSL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "Hyva\\MetrionMage\\": "src/"
+        }
+    }
+}
