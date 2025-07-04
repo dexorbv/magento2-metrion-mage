@@ -4,7 +4,7 @@
     "authors": [{
         "name": "Dexor B.V.",
         "homepage": "https://www.dexor.nl",
-        "email": "info@hyva.io"
+        "email": "matthijs@dexor.nl"
     }],
     "type": "magento2-module",
     "require": {
