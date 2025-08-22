@@ -4,6 +4,6 @@
         <remove src="Metrion_MetrionMage::js/init.js"/>
         <remove src="Metrion_MetrionMage::js/orders.js"/>
         <remove src="Metrion_MetrionMage::js/destinations.js"/>
-        <script src="Hyva_MetrionMage::js/metrion.js"/>
+        <script defer="defer" src="Hyva_MetrionMage::js/metrion.min.js"/>
     </head>
 </page>
